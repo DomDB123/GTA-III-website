@@ -1,0 +1,203 @@
+/* The background of the page (no text goes here) */
+body {
+    background-image: url(images/backg2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto 48px;
+    max-width: 1236px;
+    position: relative;
+
+}
+
+/* The styling of the logo */
+.logo {
+    display: block;
+    max-height: 100px;
+    max-width: 250px;
+    object-fit: scale-down;
+    object-position: bottom;
+    width: auto;
+}
+
+/* The main page where all the text goes */
+.main_page {
+    background-color: #272727;
+    border-radius: 3px;
+    min-height: 480px;
+    padding: 24px 36px;
+    position: relative;
+}
+
+/* Navigation bar styling */
+.menu_bar {
+    background-color: #FFA500;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    position: sticky;
+    top: 0;
+    font-family:Arial;
+    font-size: 15px;
+    z-index: 100;
+
+}
+
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+li a:hover {
+    background-color: #cf8700;
+  }
+/*End of navigation bar styling */
+
+/* The infobox where a small amount of information goes */
+.infobox {
+    background-color: #FFA500;
+    float:right;
+    width: 400px;
+}
+
+/* header styles */
+h1 {
+    text-align: center;
+    font-family:monospace;
+}
+
+h3 {
+    text-align: center;
+    color: #FFA500;
+    font-family: sans-serif;
+}
+
+h4 {
+    text-align: center;
+    color: #cf8700;
+    font-family: sans-serif;
+}
+
+/* The subtitle styling */
+.subtitle {
+    font-family: monospace;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #FFA500;
+    width: 730px;
+    
+}
+
+/* The GTA cover inside the infobox */
+.gta-art {
+    width: 400px;
+    object-fit:cover;
+    text-wrap:wrap;
+}
+/* Main text styling */
+.mtext {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+/* Used to adjust the max width of the text */
+.text-box {
+    max-width: 725px;
+}
+
+/*Characters flex*/
+.characters-flex {
+    display:flex;
+    width: 725px;
+}
+
+/*Character image styling*/
+.characters-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*Character margins*/
+.character-margin {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*Character text styling*/
+.character-text {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 150px;
+}
+
+
+/*Map styling*/
+.map {
+    max-width: 725px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+/*Infobox styling*/
+.infobox-flex {
+    display: flex;
+    width: 400px;
+    position:relative;
+    align-items: flex-start;
+}
+
+/*black div in the infobox*/
+.infobox-grey {
+    background-color: black;
+    margin-left: auto;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 1px;
+    
+}
+
+/*text in the black div of the infobox*/
+.infobox-grey-text {
+    width: 250px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: black;
+    vertical-align: bottom;
+
+}
+
+/*Text in the orange section of the infobox*/
+.infobox-title {
+    color: black;
+    font-family: sans-serif;
+    width: 150px;
+    text-align: center;
+    max-width: 150px;
+    
+}
+
+/* The margins between information in the infobox */
+.infobox-margin {
+    margin-bottom: 4px;
+
+}
